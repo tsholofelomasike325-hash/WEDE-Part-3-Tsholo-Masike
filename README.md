@@ -2,7 +2,7 @@
 
 A responsive, multi-page website for the **Dobsonville Community Foundation**, a non-profit organisation in Dobsonville, Soweto, that empowers residents through youth development, skills training, health support and cultural connection.
 
-**Live site:** https://the-developer-tong.github.io/dobsonville-community-foundation/ *(available after GitHub Pages is enabled; see [Deployment](#deployment))*
+**Live site:** https://tsholofelomasike325-hash.github.io/WEDE-Part-3-Tsholo-Masike/
 
 ---
 
@@ -169,8 +169,8 @@ No build step or install is needed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/The-Developer-Tong/dobsonville-community-foundation.git
-   cd dobsonville-community-foundation
+   git clone https://github.com/tsholofelomasike325-hash/WEDE-Part-3-Tsholo-Masike.git
+   cd WEDE-Part-3-Tsholo-Masike
    ```
 2. Open the site with a local server. Opening the HTML file directly also works, but a server matches how GitHub Pages behaves:
    - **VS Code:** install the *Live Server* extension, right-click `index.html` and choose **Open with Live Server**, or
@@ -242,14 +242,14 @@ The site was tested in Chrome at desktop (1366 px) and mobile (390 px) widths wi
 
 The site is hosted on **GitHub Pages**:
 
-1. Create a new public repository on GitHub named `dobsonville-community-foundation`.
+1. Create a new public repository on GitHub named `WEDE-Part-3-Tsholo-Masike`.
 2. Push the code:
    ```bash
-   git remote add origin https://github.com/The-Developer-Tong/dobsonville-community-foundation.git
+   git remote add origin https://github.com/tsholofelomasike325-hash/WEDE-Part-3-Tsholo-Masike.git
    git push -u origin main
    ```
 3. On GitHub, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select **main** and **/ (root)**, then click **Save**.
-4. After 1–2 minutes the site is live at `https://the-developer-tong.github.io/dobsonville-community-foundation/`.
+4. After 1–2 minutes the site is live at `https://tsholofelomasike325-hash.github.io/WEDE-Part-3-Tsholo-Masike/`.
 5. Update the live link at the top of this README if the URL differs.
 
 ## Screenshots
@@ -335,8 +335,7 @@ Harvard style. The same list appears on the website's [References page](referenc
 ## Author
 
 - **Developer:** Tsholofelo Masike (ST10507323)
-- **GitHub:** [@The-Developer-Tong](https://github.com/The-Developer-Tong)
-- **Email:** tongmoarabi@gmail.com
+- **GitHub:** [@tsholofelomasike325-hash](https://github.com/tsholofelomasike325-hash)
 - **Module:** [Module name and code], WEDE Part 2
 - **Client:** Dobsonville Community Foundation, Dobsonville, Soweto
 
