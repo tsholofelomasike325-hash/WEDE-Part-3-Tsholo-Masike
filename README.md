@@ -318,7 +318,7 @@ Harvard style. The same list appears on the website's [References page](referenc
 
 ## Author
 
-- **Developer:** [Your full name] ([Student number])
+- **Developer:** Tsholofelo Masike (ST10507323)
 - **GitHub:** [@The-Developer-Tong](https://github.com/The-Developer-Tong)
 - **Email:** tongmoarabi@gmail.com
 - **Module:** [Module name and code], WEDE Part 2
