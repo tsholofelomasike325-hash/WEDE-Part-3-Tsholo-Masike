@@ -1,63 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Dobsonville Community foundation Building a brighter future together. Empowers our vibrant soweto community."
-        <title>home  Dobsonville Community Foundation</title>
-        <link rel = "stylesheet" href="style.css"
-        <link rel = "stylesheet" href="css/style.css"
-    </head>
-    <body>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dobsonville Community Foundation | Soweto NPO & Youth Skills</title>
+  <meta name="description" content="Dobsonville Community Foundation is a Soweto NPO uplifting residents through youth tutoring, skills training, food support and health workshops since 2020.">
+  <meta name="keywords" content="Dobsonville Community Foundation, Soweto NPO, community development Soweto, youth skills training, Dobsonville non-profit">
+  <meta name="author" content="Dobsonville Community Foundation">
+  <meta name="theme-color" content="#b5532a">
 
-        <a class ="skip - link" href="#main">skip to main content</a>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dobsonville Community Foundation">
+  <meta property="og:title" content="Dobsonville Community Foundation | Soweto NPO & Youth Skills">
+  <meta property="og:description" content="Uplifting Dobsonville residents of all ages through education, skills training, wellness programmes and cultural engagement.">
+  <meta property="og:image" content="images/dobsonville-community-foundation-social-share.jpg">
+  <meta property="og:image:alt" content="Dobsonville Community Foundation banner with community members">
+  <meta property="og:locale" content="en_ZA">
+  <meta name="twitter:card" content="summary_large_image">
 
-        <header class = "site - header">
-            <div class = "container header - inner">
-                <a href = "index.html" class = "logo">
-                    <img src = "images/logo.png" alt="Dobsonville Community Foundation" width="60" height="60">
-                    Dobsonville Community Foundation
-                </a>
+  <link rel="icon" href="images/dobsonville-community-foundation-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-                <input type = "checkbox" id = "nav toggle" class ="nav - toggle" aria - label = "Toggle navigation"
-                <label for = "nav - toggle" class = "nav - toggle - label" aria - label ="Toggle nabigation".
-                 <span></span>
-            </label>
-
-        <nav class="main - nav" aria - label = "main navigation">
-            <ul>
-            <li><a href = "index.html" class = "active">Home</a></li>
-            <li><a href = "about.html"> About</a></li>
-            <li><a href = "contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/dobsonville-community-foundation-logo.svg" alt="" width="46" height="46">
+        <span>Dobsonville<br>Community Foundation</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Programmes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="partner.html">Partner With Us</a></li>
+          <li><a href="enquiry.html">Enquire</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-</header>
+  </header>
 
-<main id="main">
-
+  <main id="main" tabindex="-1">
     <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-text"
-          <h1>Welcome to Dobsonville Community Foundation</h1>
-          <p>We empower our vibrant soweto community through youth developement, skills training. We build resilience and foster a brighter shared future for everyone.</p>
-          <a href = "services.html" class ="btn btn - primary">Explore Services</a>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">Soweto non-profit · Est. 2020</span>
+          <h1>Building a brighter, shared future in Dobsonville</h1>
+          <p class="lead">The Dobsonville Community Foundation empowers our vibrant Soweto community through youth development, skills training, health support and cultural connection.</p>
+          <div class="btn-row">
+            <a href="services.html" class="btn btn-primary">Explore our programmes</a>
+            <a href="partner.html" class="btn btn-outline">Become a sponsor</a>
+          </div>
         </div>
+
+        <div class="slider" data-slider tabindex="0" aria-roledescription="carousel" aria-label="Highlights from our community work">
+          <figure class="slide">
+            <img src="images/dobsonville-food-parcel-drive.jpg" alt="Food parcels packed with fresh produce for Dobsonville families" width="1200" height="800">
+            <figcaption>Food parcel drives for vulnerable families</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="images/dobsonville-youth-digital-literacy-training.jpg" alt="Laptop used in a digital literacy class for unemployed youth" width="1200" height="800" loading="lazy">
+            <figcaption>Digital literacy for unemployed youth</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="images/dobsonville-after-school-tutoring-class.jpg" alt="Open workbook from an after-school tutoring session" width="1200" height="800" loading="lazy">
+            <figcaption>Daily after-school tutoring</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="images/dobsonville-skills-graduation-ceremony.jpg" alt="Graduation cap celebrating learners completing a skills programme" width="1200" height="800" loading="lazy">
+            <figcaption>Celebrating our skills graduates</figcaption>
+          </figure>
+          <button class="slider-btn prev" type="button" aria-label="Previous slide">&#8249;</button>
+          <button class="slider-btn next" type="button" aria-label="Next slide">&#8250;</button>
+          <div class="slider-dots"></div>
+        </div>
+      </div>
     </section>
 
-    <section class = "section">
-        <div class = "container">
-            <h2> Why Choose Us</h2>
-        </div class = "card - grid"
-        <article class = "card"
-        <h3>Increases employment Rate</h3>
-        <p>Our foundation offers skills & employment, social and health support.</p>
-        </article>
-        <article class ="card"
+    <section class="stats" aria-label="Our impact at a glance">
+      <div class="container stats-grid">
+        <div><span class="stat-number" data-count="2020">2020</span><span class="stat-label">Year we were founded</span></div>
+        <div><span class="stat-number" data-count="5">5</span><span class="stat-label">Core programme areas</span></div>
+        <div><span class="stat-number" data-count="4">4</span><span class="stat-label">Community groups served</span></div>
+        <div><span class="stat-number" data-count="100" data-suffix="+">100+</span><span class="stat-label">Residents reached each year</span></div>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">Our story</span>
+          <h2>From grassroots outreach to a pillar of Soweto</h2>
+          <p>Founded in 2020 by Tsholofelo Masike, the Dobsonville Community Foundation began as a small grassroots initiative focused on outreach. As our neighbourhood's challenges grew, so did we.</p>
+          <p>By 2023 we expanded into skills development and training and moved into our current community centre. Today we serve hundreds of residents every year and remain dedicated to empowering our community from within.</p>
+          <a href="about.html" class="btn btn-outline">Read our full story</a>
+        </div>
+        <img class="reveal" src="images/dobsonville-community-centre-building.jpg" alt="The Dobsonville Community Foundation community centre in Soweto" width="1200" height="800" loading="lazy">
+      </div>
+    </section>
 
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>Programmes that change lives</h2>
+          <p>Every programme is designed with and for Dobsonville residents, from school learners to seniors and local entrepreneurs.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card reveal">
+            <div class="card-body">
+              <div class="card-icon" aria-hidden="true">📚</div>
+              <h3>Educational advancement</h3>
+              <p>Daily after-school tutoring, digital literacy and youth mentorship to improve academic outcomes.</p>
+              <a href="services.html?category=education" class="btn btn-outline">View education</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card-body">
+              <div class="card-icon" aria-hidden="true">🛠️</div>
+              <h3>Skills &amp; employment</h3>
+              <p>Accredited vocational skills, job-readiness and entrepreneurship training for unemployed youth.</p>
+              <a href="services.html?category=skills" class="btn btn-outline">View skills</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card-body">
+              <div class="card-icon" aria-hidden="true">🍲</div>
+              <h3>Social &amp; health support</h3>
+              <p>Food security assistance, health workshops and wellness support for vulnerable families and seniors.</p>
+              <a href="services.html?category=health" class="btn btn-outline">View support</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card-body">
+              <div class="card-icon" aria-hidden="true">🤝</div>
+              <h3>Enterprise growth</h3>
+              <p>Business development tools, networking opportunities and mentorship for local micro-enterprises.</p>
+              <a href="services.html?category=enterprise" class="btn btn-outline">View enterprise</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    
+    <section class="section">
+      <div class="container">
+        <div class="cta reveal">
+          <h2>Partner with a community that delivers</h2>
+          <p>Corporate sponsors help us expand programmes and facility capacity, and gain visible B-BBEE and social-impact benefits in return.</p>
+          <div class="btn-row">
+            <a href="partner.html" class="btn btn-light">See sponsorship packages</a>
+            <a href="enquiry.html?type=sponsorship" class="btn btn-outline-light">Request a proposal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Dobsonville Community Foundation</h2>
+        <p>Uplifting Dobsonville residents of all ages through education, wellness programmes and cultural engagement.</p>
+        <p><strong>NPO No:</strong> <span>[NPO number to be confirmed]</span></p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Programmes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="partner.html">Partner with us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get involved</h2>
+        <ul>
+          <li><a href="enquiry.html">Make an enquiry</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Visit us</h2>
+        <p>Dobsonville, Soweto<br>Johannesburg, 1863</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)">f</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)">ig</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span data-year>2026</span> Dobsonville Community Foundation. All rights reserved.</p>
+      <p>Built for the community, by the community.</p>
+    </div>
+  </footer>
 
-     
+  <button class="back-to-top" type="button" aria-label="Back to top">&#8593;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -158,6 +158,17 @@ ul { padding-left: 1.2rem; }
   color: var(--brown);
 }
 
+.btn-outline-light {
+  background: transparent;
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.btn-outline-light:hover {
+  background: var(--white);
+  color: var(--brown);
+}
+
 .btn[disabled] {
   opacity: 0.7;
   cursor: wait;
