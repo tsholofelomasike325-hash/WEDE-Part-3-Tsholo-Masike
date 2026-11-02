@@ -1422,3 +1422,20 @@ body.no-scroll {
 .map-fallback {
   padding: 1rem;
 }
+
+.btn-row-center {
+  justify-content: center;
+}
+
+.references {
+  max-width: 900px;
+}
+
+.references h2 {
+  margin-top: 2rem;
+}
+
+.references li {
+  margin-bottom: 0.8rem;
+  overflow-wrap: anywhere;
+}
