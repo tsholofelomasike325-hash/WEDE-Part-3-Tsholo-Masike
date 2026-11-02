@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Dobsonville Community Foundation logo</title>
+  <circle cx="32" cy="32" r="31" fill="#b5532a"/>
+  <path d="M10 44 A22 22 0 0 1 54 44 Z" fill="#d99a3c"/>
+  <circle cx="32" cy="22" r="7" fill="#faf5ec"/>
+  <circle cx="19" cy="28" r="5" fill="#faf5ec"/>
+  <circle cx="45" cy="28" r="5" fill="#faf5ec"/>
+  <path d="M22 50 Q32 34 42 50 Z" fill="#faf5ec"/>
+  <path d="M11 52 Q19 38 27 52 Z" fill="#faf5ec"/>
+  <path d="M37 52 Q45 38 53 52 Z" fill="#faf5ec"/>
+</svg>
