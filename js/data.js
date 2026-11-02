@@ -1,7 +1,7 @@
 /* ==========================================================================
    Site content data
-   Programmes and gallery items are stored here and rendered dynamically,
-   so updating the site means editing these arrays, not the HTML.
+   Programmes are stored here and rendered dynamically on services.html,
+   so updating the site means editing this array, not the HTML.
    ========================================================================== */
 
 const CATEGORIES = {
@@ -147,17 +147,3 @@ const PROGRAMMES = [
   }
 ];
 
-const GALLERY = [
-  { src: "images/dobsonville-community-centre-building.jpg", alt: "The Dobsonville Community Foundation community centre", caption: "Our community centre in Dobsonville, Soweto", category: "centre" },
-  { src: "images/dobsonville-food-parcel-drive.jpg", alt: "Food parcel packed with fresh produce", caption: "Food parcels ready for distribution", category: "food" },
-  { src: "images/dobsonville-volunteers-packing-food-parcels.jpg", alt: "Volunteers packing food parcels together", caption: "Volunteers packing parcels for families", category: "food" },
-  { src: "images/dobsonville-community-food-garden.jpg", alt: "Seedling growing in the community food garden", caption: "Fresh produce from our food garden", category: "food" },
-  { src: "images/dobsonville-after-school-tutoring-class.jpg", alt: "Open workbook in an after-school tutoring class", caption: "After-school tutoring sessions", category: "skills" },
-  { src: "images/dobsonville-youth-digital-literacy-training.jpg", alt: "Laptop used during digital literacy training", caption: "Digital literacy training for youth", category: "skills" },
-  { src: "images/dobsonville-vocational-skills-workshop.jpg", alt: "Gear symbolising a vocational skills workshop", caption: "Hands-on vocational skills workshop", category: "skills" },
-  { src: "images/dobsonville-skills-graduation-ceremony.jpg", alt: "Graduation cap at a skills programme ceremony", caption: "Skills programme graduation", category: "skills" },
-  { src: "images/dobsonville-youth-mentorship-session.jpg", alt: "Mentor speaking with a young person", caption: "Youth mentorship circle", category: "community" },
-  { src: "images/dobsonville-seniors-health-workshop.jpg", alt: "Heart symbol for a seniors' health workshop", caption: "Seniors' health and wellness workshop", category: "community" },
-  { src: "images/dobsonville-entrepreneur-market-day.jpg", alt: "Market stall at an entrepreneur market day", caption: "Entrepreneur networking market day", category: "community" },
-  { src: "images/dobsonville-cultural-heritage-celebration.jpg", alt: "Traditional drum at a heritage celebration", caption: "Celebrating our cultural heritage", category: "community" }
-];
