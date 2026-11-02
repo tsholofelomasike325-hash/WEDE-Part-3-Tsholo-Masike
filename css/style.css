@@ -693,6 +693,10 @@ ul { padding-left: 1.2rem; }
   overflow: hidden;
 }
 
+.accordion-item h3 {
+  margin: 0;
+}
+
 .accordion-trigger {
   width: 100%;
   display: flex;
