@@ -232,13 +232,15 @@ function initCounters() {
   const animate = (el) => {
     const target = Number(el.dataset.count);
     const suffix = el.dataset.suffix || "";
+    // data-plain skips thousands separators (e.g. for years)
+    const format = (n) => ("plain" in el.dataset ? String(n) : n.toLocaleString("en-ZA"));
     const duration = 1600;
     const startTime = performance.now();
 
     const step = (now) => {
       const progress = Math.min((now - startTime) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      el.textContent = Math.round(target * eased).toLocaleString("en-ZA") + suffix;
+      el.textContent = format(Math.round(target * eased)) + suffix;
       if (progress < 1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
