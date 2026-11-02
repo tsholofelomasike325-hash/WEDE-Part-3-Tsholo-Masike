@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquire | Dobsonville Community Foundation Programmes & Sponsors</title>
+  <meta name="description" content="Enquire with Dobsonville Community Foundation to join a programme, request food parcels, volunteer, hire our centre or sponsor learners, with an instant estimate.">
+  <meta name="keywords" content="enquire Dobsonville Community Foundation, join skills programme Soweto, request food parcel, volunteer Soweto, hire community hall Dobsonville">
+  <meta name="author" content="Dobsonville Community Foundation">
+  <meta name="theme-color" content="#b5532a">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dobsonville Community Foundation">
+  <meta property="og:title" content="Enquire | Dobsonville Community Foundation Programmes & Sponsors">
+  <meta property="og:description" content="Join a programme, request support, volunteer or sponsor learners and get an instant estimate and availability.">
+  <meta property="og:image" content="images/dobsonville-volunteers-packing-food-parcels.jpg">
+  <meta property="og:image:alt" content="Volunteers packing food parcels at the foundation">
+  <meta property="og:locale" content="en_ZA">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/dobsonville-community-foundation-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/dobsonville-community-foundation-logo.svg" alt="" width="46" height="46">
+        <span>Dobsonville<br>Community Foundation</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Programmes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="partner.html">Partner With Us</a></li>
+          <li><a href="enquiry.html" class="active" aria-current="page">Enquire</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-banner">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / Enquire</nav>
+        <span class="eyebrow">Enquiry form</span>
+        <h1>How can we help you?</h1>
+        <p>Join a programme, request food support, volunteer, hire our hall or sponsor learners. You'll get an instant estimate and the next available date.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="form-card">
+          <form id="enquiry-form" novalidate>
+            <p class="hint">Fields marked <span class="required">*</span> are required.</p>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fullName">Full name <span class="required">*</span></label>
+                <input type="text" id="fullName" name="fullName" autocomplete="name" required aria-describedby="fullName-error">
+                <p class="error-message" id="fullName-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+                <p class="error-message" id="email-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone number <span class="required">*</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="071 234 5678" required aria-describedby="phone-hint phone-error">
+                <p class="hint" id="phone-hint">South African number, e.g. 071 234 5678 or +27 71 234 5678.</p>
+                <p class="error-message" id="phone-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group">
+                <label for="enquiryType">Enquiry type <span class="required">*</span></label>
+                <select id="enquiryType" name="enquiryType" required aria-describedby="enquiryType-error">
+                  <option value="">Select an enquiry type</option>
+                </select>
+                <p class="error-message" id="enquiryType-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group full" id="programme-group" hidden>
+                <label for="programme">Which programme? <span class="required">*</span></label>
+                <select id="programme" name="programme" aria-describedby="programme-error">
+                  <option value="">Select a programme</option>
+                </select>
+                <p class="error-message" id="programme-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group full" id="organisation-group" hidden>
+                <label for="organisation">Company or organisation (optional)</label>
+                <input type="text" id="organisation" name="organisation" autocomplete="organization">
+              </div>
+
+              <div class="form-group">
+                <label for="preferredDate">Preferred date <span class="required">*</span></label>
+                <input type="date" id="preferredDate" name="preferredDate" required aria-describedby="preferredDate-hint preferredDate-error">
+                <p class="hint" id="preferredDate-hint">For a visit, start date or event. Closed Sundays and public holidays.</p>
+                <p class="error-message" id="preferredDate-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group">
+                <label for="quantity" id="quantity-label">Number of people <span class="required">*</span></label>
+                <input type="number" id="quantity" name="quantity" min="1" max="1000" step="1" inputmode="numeric" required aria-describedby="quantity-hint quantity-error">
+                <p class="hint" id="quantity-hint">Choose an enquiry type first.</p>
+                <p class="error-message" id="quantity-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group full">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" required aria-describedby="message-count message-error" placeholder="Tell us a bit more about your enquiry (at least 20 characters)."></textarea>
+                <p class="char-count" id="message-count" aria-live="polite"></p>
+                <p class="error-message" id="message-error" aria-live="polite"></p>
+              </div>
+
+              <div class="form-group full checkbox-group">
+                <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-error">
+                <label for="consent">I agree that the Dobsonville Community Foundation may store my details and contact me about this enquiry, in line with POPIA. <span class="required">*</span></label>
+                <p class="error-message" id="consent-error" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Submit enquiry</button>
+              <button type="reset" class="btn btn-outline">Clear form</button>
+            </div>
+          </form>
+
+          <div id="enquiry-feedback" class="form-feedback" role="status" aria-live="polite" tabindex="-1" hidden></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Dobsonville Community Foundation</h2>
+        <p>Uplifting Dobsonville residents of all ages through education, wellness programmes and cultural engagement.</p>
+        <p><strong>NPO No:</strong> <span>[NPO number to be confirmed]</span></p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Programmes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="partner.html">Partner with us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get involved</h2>
+        <ul>
+          <li><a href="enquiry.html">Make an enquiry</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="references.html">References</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Visit us</h2>
+        <p>Dobsonville, Soweto<br>Johannesburg, 1863</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook (opens in a new tab)">f</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)">ig</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span data-year>2026</span> Dobsonville Community Foundation. All rights reserved.</p>
+      <p>Built for the community, by the community.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">&#8593;</button>
+  <script src="js/main.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/enquiry.js"></script>
+</body>
+</html>

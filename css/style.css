@@ -1043,6 +1043,10 @@ body.no-scroll {
   grid-column: 1 / -1;
 }
 
+.form-group[hidden] {
+  display: none;
+}
+
 .form-group label,
 .form-group legend {
   font-weight: 600;
