@@ -204,7 +204,7 @@ Until the endpoint is set, the contact form shows a clear "email service has not
 - **Programmes:** edit the `PROGRAMMES` array in `js/data.js`. Each entry has a title, category, audience, schedule, description, search keywords and image. The Programmes page and the enquiry dropdown update automatically.
 - **Pricing used in estimates:** edit `ENQUIRY_TYPES` in `js/enquiry.js` (`unitCost`, limits and notice periods).
 - **Map location:** edit `CENTRE` (latitude/longitude and address) at the top of `js/map.js`.
-- **Images:** replace files in `images/` with real photos **using the same file names**, or update the paths and `alt` text in the HTML.
+- **Images:** photos are openly licensed Wikimedia Commons images (see [References](#references)). To use the foundation's own photos, add them to `images/` with descriptive hyphenated names, update the paths and `alt` text in the HTML and `js/data.js`, and remove the matching credits.
 
 ## SEO
 
@@ -213,8 +213,8 @@ Until the endpoint is set, the contact form shows a clear "email service has not
 - Tailored meta keywords per page (5 relevant phrases, no stuffing).
 - Open Graph and Twitter card tags for link previews on Facebook and WhatsApp.
 - `lang="en-ZA"`, viewport meta, semantic HTML5 and exactly one `<h1>` per page.
-- Descriptive, hyphenated image file names (e.g. `dobsonville-food-parcel-drive.jpg`) and meaningful `alt` text on every image.
-- Images compressed to about 15–40 KB, with explicit width/height to prevent layout shift and lazy loading below the fold.
+- Descriptive, hyphenated image file names (e.g. `volunteers-packing-food-parcels-philippi.jpg`) and meaningful `alt` text on every image.
+- Photos cropped to 1200 × 800 and compressed to about 80–210 KB, with explicit width/height to prevent layout shift and lazy loading below the fold.
 
 ## Accessibility
 
@@ -284,6 +284,7 @@ The full dated history is in [CHANGELOG.md](CHANGELOG.md). Summary:
 | 2026-11-02 | 0.10.0 | References and 404 pages |
 | 2026-11-02 | 0.11.0 | Bug fixes from browser testing, SEO title tuning |
 | 2026-11-02 | 1.0.0 | README, changelog and deployment preparation |
+| 2026-11-02 | 1.1.0 | Real, openly licensed South African photos with Harvard image credits |
 
 ## References
 
@@ -293,7 +294,22 @@ Harvard style. The same list appears on the website's [References page](referenc
 - Dobsonville Community Foundation (2026) *Organisational overview and website proposal*. Unpublished internal document. Johannesburg: Dobsonville Community Foundation.
 
 **Images**
-- All images are original placeholder illustrations created by the developer with Pillow for this project. They will be replaced by photographs supplied by the foundation.
+- Photographs are by the credited photographers on Wikimedia Commons and show community development work across South Africa. They are illustrative, not photographs of the foundation's own events. They were cropped to 3:2, resized and compressed; adapted CC BY-SA images are shared under the same licence. The logo and social-share banner were created by the developer.
+- Discott (2020) *Philippi 20200407 112336* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:Philippi_20200407_112336.jpg (Accessed: 2 November 2026). Used as `volunteers-packing-food-parcels-philippi.jpg` (cropped and resized).
+- Ed Suter (2009) *Young girl practices her soccer skills, Khayelitsha, Cape Town* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:Young_girl_practices_her_soccer_skills,_Khayelitsha,_Cape_Town.jpg (Accessed: 2 November 2026). Used as `youth-football-life-skills-khayelitsha.jpg` (cropped and resized).
+- HelenOnline (2014) *Nomonde Tuck Shop* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:Nomonde_Tuck_Shop.jpg (Accessed: 2 November 2026). Used as `spaza-tuck-shop-small-business.jpg` (cropped and resized).
+- JeffNyoka (2019) *Tanks Coding Game. Johannesburg Libraries. Elearning activity 02* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:Tanks_Coding_Game._Johannesburg_Libraries._Elearning_activity_02.jpg (Accessed: 2 November 2026). Used as `learners-coding-activity-johannesburg-library.jpg` (cropped and resized).
+- Kate Holt/AusAID (2009) *Africa Food Security 14 (10665092094)* [Photograph]. Wikimedia Commons. Licence: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). Available at: https://commons.wikimedia.org/wiki/File:Africa_Food_Security_14_(10665092094).jpg (Accessed: 2 November 2026). Used as `community-vegetable-garden-cape-town.jpg` (cropped and resized).
+- LIVE AT BFN MEDIA AND ENTERTAINMENT HOUSE (2025) *Katleho Ntombinale Kokoropo a Community health care worker at Thusong Clinic 01* [Photograph]. Wikimedia Commons. Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). Available at: https://commons.wikimedia.org/wiki/File:Katleho_Ntombinale_Kokoropo_a_Community_health_care_worker_at_Thusong_Clinic_01.jpg (Accessed: 2 November 2026). Used as `community-health-worker-health-talk.jpg` (cropped and resized).
+- Nick-D (2026) *Butshingi Street in Orlando West, Soweto June 2026* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:Butshingi_Street_in_Orlando_West,_Soweto_June_2026.jpg (Accessed: 2 November 2026). Used as `soweto-orlando-west-street.jpg` (cropped and resized).
+- Nolabob (2011) *Soweto Market 2011* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:Soweto_Market_2011.jpg (Accessed: 2 November 2026). Used as `soweto-fresh-produce-market.jpg` (cropped and resized).
+- Slippery slope302 (2026) *Wikipedia Training at the Johannesburg City Library 13* [Photograph]. Wikimedia Commons. Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). Available at: https://commons.wikimedia.org/wiki/File:Wikipedia_Training_at_the_Johannesburg_City_Library_13.jpg (Accessed: 2 November 2026). Used as `adult-computer-training-johannesburg-library.jpg` (cropped and resized).
+- The Wot-If? Trust (2017) *The Wot-If Trust, South Africa 2* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:The_Wot-If_Trust,_South_Africa_2.jpg (Accessed: 2 November 2026). Used as `women-sewing-skills-training.jpg` (cropped and resized).
+- The Wot-If? Trust (2017) *The Wot-If Trust, South Africa 11* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:The_Wot-If_Trust,_South_Africa_11.jpg (Accessed: 2 November 2026). Used as `young-people-mentoring-session.jpg` (cropped and resized).
+- The Wot-If? Trust (2017) *The Wot-If Trust, South Africa 1* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:The_Wot-If_Trust,_South_Africa_1.jpg (Accessed: 2 November 2026). Used as `community-volunteers-group-photo.jpg` (cropped and resized).
+- The Wot-If? Trust (2017) *The Wot-If Trust, South Africa 7* [Photograph]. Wikimedia Commons. Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Available at: https://commons.wikimedia.org/wiki/File:The_Wot-If_Trust,_South_Africa_7.jpg (Accessed: 2 November 2026). Used as `woman-holding-handmade-craft-products.jpg` (cropped and resized).
+- thomas_sly (2006) *First day of school. Soweto - Johannesburg, South Africa - Flickr - thomas sly* [Photograph]. Wikimedia Commons. Licence: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0). Available at: https://commons.wikimedia.org/wiki/File:First_day_of_school._Soweto_-_Johannesburg,_South_Africa_-_Flickr_-_thomas_sly.jpg (Accessed: 2 November 2026). Used as `soweto-learners-first-day-of-school.jpg` (cropped and resized).
+- USEmbassySA (2024) *Heritage Day Celebration KwaMzongwana (54019784832)* [Photograph]. Wikimedia Commons. Licence: Public domain. Available at: https://commons.wikimedia.org/wiki/File:Heritage_Day_Celebration_KwaMzongwana_(54019784832).jpg (Accessed: 2 November 2026). Used as `heritage-day-celebration-traditional-dress.jpg` (cropped and resized).
 
 **Libraries, services and data**
 - Agafonkin, V. and Leaflet contributors (2023) *Leaflet: an open-source JavaScript library for interactive maps* (Version 1.9.4). Available at: https://leafletjs.com/ (Accessed: 2 November 2026).

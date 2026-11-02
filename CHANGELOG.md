@@ -3,6 +3,16 @@
 All notable changes to the Dobsonville Community Foundation website are recorded here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-11-02
+### Changed
+- Replaced the placeholder illustrations with 15 openly licensed photographs of community development in Soweto and across South Africa from Wikimedia Commons (CC BY, CC BY-SA and public domain).
+- Gave photos descriptive file names and alt text that match their real content, and cropped, resized and compressed them (about 80–210 KB each).
+- Rebuilt the gallery with 15 photos, location-accurate captions, a "Soweto" filter and a link to image credits.
+- Rebuilt the social-share banner from a photo.
+### Added
+- Harvard-style image credits (photographer, year, title, licence, source URL, access date) on the References page and in the README.
+- Developer name and student number in the README.
+
 ## [1.0.0] - 2026-11-02
 ### Added
 - Comprehensive `README.md` covering the overview, pages, features, setup, Formspree email setup, SEO, accessibility, testing, deployment, screenshots, references and author.
