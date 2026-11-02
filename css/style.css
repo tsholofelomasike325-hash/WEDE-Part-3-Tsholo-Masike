@@ -1413,3 +1413,12 @@ body.no-scroll {
   .lightbox-prev, .lightbox-next { top: auto; bottom: 1rem; transform: none; }
   #map { height: 320px; }
 }
+
+/* ---------- Small helpers ---------- */
+.hours-heading {
+  margin-top: 1.5rem;
+}
+
+.map-fallback {
+  padding: 1rem;
+}
